@@ -38,6 +38,7 @@
 		AFE4D0012C20A245000CE6B0 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0002C20A245000CE6B0 /* RegisterViewViewModel.swift */; };
 		AFE4D0032C20A255000CE6B0 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0022C20A255000CE6B0 /* ToDoListViewViewModel.swift */; };
 		AFE4D0052C20A503000CE6B0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0042C20A503000CE6B0 /* HeaderView.swift */; };
+		AFE4D0092C21E22C000CE6B0 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0082C21E22C000CE6B0 /* AuthButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		AFE4D0002C20A245000CE6B0 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		AFE4D0022C20A255000CE6B0 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		AFE4D0042C20A503000CE6B0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AFE4D0082C21E22C000CE6B0 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				AFE4CFEA2C20A127000CE6B0 /* NewItemView.swift */,
 				AFE4CFEC2C20A134000CE6B0 /* LoginView.swift */,
 				AFE4CFEE2C20A18A000CE6B0 /* RegisterView.swift */,
+				AFE4D0082C21E22C000CE6B0 /* AuthButton.swift */,
 				AFE4CFF02C20A1AB000CE6B0 /* ToDoListView.swift */,
 				AFE4D0042C20A503000CE6B0 /* HeaderView.swift */,
 			);
@@ -263,6 +266,7 @@
 				AFE4CFF72C20A1F5000CE6B0 /* MainViewViewModel.swift in Sources */,
 				AFE4CFF12C20A1AC000CE6B0 /* ToDoListView.swift in Sources */,
 				AFE4CFE92C20A111000CE6B0 /* ToDoListItemView.swift in Sources */,
+				AFE4D0092C21E22C000CE6B0 /* AuthButton.swift in Sources */,
 				AFE4CFF92C20A1FF000CE6B0 /* ProfileViewViewModel.swift in Sources */,
 				AFE4CFEF2C20A18A000CE6B0 /* RegisterView.swift in Sources */,
 				AFE4CFF32C20A1C8000CE6B0 /* User.swift in Sources */,
