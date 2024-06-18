@@ -16,6 +16,11 @@ struct RegisterView: View {
             
             // Register Form
             Form {
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundStyle(.red)
+                }
+                
                 TextField("Full Name", text: $viewModel.fullname)
                     .textFieldStyle(DefaultTextFieldStyle())
                 TextField("Email Address", text: $viewModel.email)
@@ -26,7 +31,7 @@ struct RegisterView: View {
                     .textFieldStyle(DefaultTextFieldStyle())
                
                 AuthButton(title: "Register", color: .blue) {
-                    
+                    viewModel.register()
                 }
                 
             }

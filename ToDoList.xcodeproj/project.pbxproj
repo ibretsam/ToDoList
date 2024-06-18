@@ -39,6 +39,7 @@
 		AFE4D0032C20A255000CE6B0 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0022C20A255000CE6B0 /* ToDoListViewViewModel.swift */; };
 		AFE4D0052C20A503000CE6B0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0042C20A503000CE6B0 /* HeaderView.swift */; };
 		AFE4D0092C21E22C000CE6B0 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D0082C21E22C000CE6B0 /* AuthButton.swift */; };
+		AFE4D00C2C21EEDD000CE6B0 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4D00B2C21EEDD000CE6B0 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		AFE4D0022C20A255000CE6B0 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		AFE4D0042C20A503000CE6B0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AFE4D0082C21E22C000CE6B0 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		AFE4D00B2C21EEDD000CE6B0 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		AF87BB062C209AEE00221015 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				AFE4D00A2C21EECD000CE6B0 /* Utils */,
 				AF87BB2F2C20A01900221015 /* App */,
 				AF87BB2E2C20A00A00221015 /* ViewModels */,
 				AF87BB2D2C20A00500221015 /* Models */,
@@ -171,6 +174,14 @@
 				AF87BB072C209AEE00221015 /* ToDoListApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		AFE4D00A2C21EECD000CE6B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4D00B2C21EEDD000CE6B0 /* Extentions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				AFE4CFEF2C20A18A000CE6B0 /* RegisterView.swift in Sources */,
 				AFE4CFF32C20A1C8000CE6B0 /* User.swift in Sources */,
 				AFE4CFE72C20A0C7000CE6B0 /* ProfileView.swift in Sources */,
+				AFE4D00C2C21EEDD000CE6B0 /* Extentions.swift in Sources */,
 				AFE4CFFB2C20A210000CE6B0 /* ToDoListItemViewViewModel.swift in Sources */,
 				AFE4CFFF2C20A23C000CE6B0 /* LoginViewViewModel.swift in Sources */,
 				AFE4D0032C20A255000CE6B0 /* ToDoListViewViewModel.swift in Sources */,
